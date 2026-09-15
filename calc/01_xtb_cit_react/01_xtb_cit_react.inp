@@ -1,0 +1,21 @@
+! XTB2 Opt
+%geom
+  Constraints
+    {C 27 C}
+    {C 33 C}
+    {C 43 C}
+    {C 49 C}
+    {C 59 C}
+    {C 62 C}
+    {C 68 C}
+    {C 70 C}
+    {C 74 C}
+    {C 79 C}
+    {C 84 C}
+    {C 92 C}
+    {C 100 C}
+    {C 106 C}
+  end
+end
+%pal nprocs 4 end
+* xyzfile -1 1 cit_react.xyz
