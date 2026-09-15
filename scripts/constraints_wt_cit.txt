@@ -1,0 +1,16 @@
+# 0-based frozen atom indices for cit_react.xyz (Burschowsky 3.3):
+# capping H + its anchor carbon, per trimmed residue. Substrate + water fully free.
+27
+33
+43
+49
+59
+62
+68
+70
+74
+79
+84
+92
+100
+106

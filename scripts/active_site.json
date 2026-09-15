@@ -1,0 +1,218 @@
+{
+  "pdb": "3ZP7",
+  "cif": "structures/raw/3zp7.cif",
+  "space_group": "P 1",
+  "resolution_A": 1.698,
+  "reference_ligand": {
+    "code": "ISJ",
+    "name": "chorismate",
+    "role": "substrate",
+    "chain": "A",
+    "resnum": 1119,
+    "carboxylate_O": [
+      "O8",
+      "O9",
+      "O14",
+      "O15"
+    ],
+    "ether_O": [
+      "O11"
+    ],
+    "hydroxyl_O": [
+      "O10"
+    ]
+  },
+  "product_ligand_note": "PRE = prephenate (product); not used as reference",
+  "catalytic_residues": {
+    "ARG7": {
+      "resname": "ARG",
+      "chain": "B",
+      "resnum": 7,
+      "min_dist": 2.85,
+      "same_subunit": false
+    },
+    "ARG63": {
+      "resname": "ARG",
+      "chain": "A",
+      "resnum": 63,
+      "min_dist": 2.33,
+      "same_subunit": true
+    },
+    "THR74": {
+      "resname": "THR",
+      "chain": "A",
+      "resnum": 74,
+      "min_dist": 3.47,
+      "same_subunit": true
+    },
+    "CYS75": {
+      "resname": "CYS",
+      "chain": "A",
+      "resnum": 75,
+      "min_dist": 3.05,
+      "same_subunit": true
+    },
+    "GLU78": {
+      "resname": "GLU",
+      "chain": "B",
+      "resnum": 78,
+      "min_dist": 3.0,
+      "same_subunit": false
+    },
+    "CIR90": {
+      "resname": "CIR",
+      "chain": "B",
+      "resnum": 90,
+      "min_dist": 2.92,
+      "same_subunit": false
+    },
+    "TYR108": {
+      "resname": "TYR",
+      "chain": "B",
+      "resnum": 108,
+      "min_dist": 3.73,
+      "same_subunit": false
+    }
+  },
+  "contact_cutoff_A": 5.0,
+  "structural_water_candidates": [
+    {
+      "chain": "A",
+      "resnum": 2119,
+      "ligand_COO_groups": {
+        "C7": 3.03,
+        "C13": 2.8
+      },
+      "d_glu78_carboxyl": 9.04,
+      "bridges_two_ligand_carboxylates": true,
+      "bridges_ligand_and_glu78": false
+    }
+  ],
+  "all_water_contacts": [
+    {
+      "chain": "A",
+      "resnum": 2119,
+      "contacts": [
+        {
+          "ligand_O": "O15",
+          "dist": 2.8
+        },
+        {
+          "ligand_O": "O9",
+          "dist": 3.03
+        }
+      ]
+    }
+  ],
+  "hbonds": [
+    {
+      "ligand_atom": "O9",
+      "role": "carboxylate",
+      "residue": "ARG63",
+      "res_atom": "NH1",
+      "chain": "A",
+      "dist": 2.33,
+      "subunit": "same"
+    },
+    {
+      "ligand_atom": "O14",
+      "role": "carboxylate",
+      "residue": "ARG7",
+      "res_atom": "NH2",
+      "chain": "B",
+      "dist": 2.85,
+      "subunit": "OTHER"
+    },
+    {
+      "ligand_atom": "O11",
+      "role": "ether-O",
+      "residue": "CIR90",
+      "res_atom": "N8",
+      "chain": "B",
+      "dist": 2.92,
+      "subunit": "OTHER"
+    },
+    {
+      "ligand_atom": "O10",
+      "role": "hydroxyl",
+      "residue": "GLU78",
+      "res_atom": "OE2",
+      "chain": "B",
+      "dist": 3.0,
+      "subunit": "OTHER"
+    },
+    {
+      "ligand_atom": "O14",
+      "role": "carboxylate",
+      "residue": "CIR90",
+      "res_atom": "N6",
+      "chain": "B",
+      "dist": 3.0,
+      "subunit": "OTHER"
+    },
+    {
+      "ligand_atom": "O15",
+      "role": "carboxylate",
+      "residue": "ARG7",
+      "res_atom": "NH1",
+      "chain": "B",
+      "dist": 3.02,
+      "subunit": "OTHER"
+    },
+    {
+      "ligand_atom": "O11",
+      "role": "ether-O",
+      "residue": "CIR90",
+      "res_atom": "N6",
+      "chain": "B",
+      "dist": 3.02,
+      "subunit": "OTHER"
+    },
+    {
+      "ligand_atom": "O8",
+      "role": "carboxylate",
+      "residue": "ARG63",
+      "res_atom": "NH1",
+      "chain": "A",
+      "dist": 3.24,
+      "subunit": "same"
+    },
+    {
+      "ligand_atom": "O10",
+      "role": "hydroxyl",
+      "residue": "CYS75",
+      "res_atom": "SG",
+      "chain": "A",
+      "dist": 3.47,
+      "subunit": "same"
+    },
+    {
+      "ligand_atom": "O14",
+      "role": "carboxylate",
+      "residue": "ARG7",
+      "res_atom": "NH1",
+      "chain": "B",
+      "dist": 3.49,
+      "subunit": "OTHER"
+    }
+  ],
+  "charges": {
+    "map": {
+      "ISJ": -2,
+      "PRE": -2,
+      "ARG": 1,
+      "GLU": -1,
+      "CIR": 0,
+      "THR": 0,
+      "CYS": 0,
+      "TYR": 0
+    },
+    "cit90_cluster_total": -1,
+    "wt_cluster_total": 0,
+    "multiplicity": 1
+  },
+  "notes": [
+    "Read-only reconnaissance; no atoms cut/capped; ORCA not run.",
+    "Atom ordering / freeze-list to be fixed identically across R/P/TS/WT/Cit in a later session."
+  ]
+}

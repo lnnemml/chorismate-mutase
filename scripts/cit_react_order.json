@@ -1,0 +1,826 @@
+{
+  "natoms": 114,
+  "net_charge": -1,
+  "multiplicity": 1,
+  "n_electrons": 422,
+  "frozen_indices": [
+    27,
+    33,
+    43,
+    49,
+    59,
+    62,
+    68,
+    70,
+    74,
+    79,
+    84,
+    92,
+    100,
+    106
+  ],
+  "reactive_atoms": {
+    "bond_breaking": "C1-O11",
+    "bond_forming": "C3-C16"
+  },
+  "atoms": [
+    {
+      "global_idx": 0,
+      "residue": "ISJ_substrate",
+      "atom": "C1",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 1,
+      "residue": "ISJ_substrate",
+      "atom": "C2",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 2,
+      "residue": "ISJ_substrate",
+      "atom": "C3",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 3,
+      "residue": "ISJ_substrate",
+      "atom": "C4",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 4,
+      "residue": "ISJ_substrate",
+      "atom": "C5",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 5,
+      "residue": "ISJ_substrate",
+      "atom": "C6",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 6,
+      "residue": "ISJ_substrate",
+      "atom": "C7",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 7,
+      "residue": "ISJ_substrate",
+      "atom": "O8",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 8,
+      "residue": "ISJ_substrate",
+      "atom": "O9",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 9,
+      "residue": "ISJ_substrate",
+      "atom": "O10",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 10,
+      "residue": "ISJ_substrate",
+      "atom": "O11",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 11,
+      "residue": "ISJ_substrate",
+      "atom": "C12",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 12,
+      "residue": "ISJ_substrate",
+      "atom": "C13",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 13,
+      "residue": "ISJ_substrate",
+      "atom": "O14",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 14,
+      "residue": "ISJ_substrate",
+      "atom": "O15",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 15,
+      "residue": "ISJ_substrate",
+      "atom": "C16",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 16,
+      "residue": "ISJ_substrate",
+      "atom": "H@C1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 17,
+      "residue": "ISJ_substrate",
+      "atom": "H@C2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 18,
+      "residue": "ISJ_substrate",
+      "atom": "H@C4",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 19,
+      "residue": "ISJ_substrate",
+      "atom": "H@C5",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 20,
+      "residue": "ISJ_substrate",
+      "atom": "H@C6",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 21,
+      "residue": "ISJ_substrate",
+      "atom": "H@O10",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 22,
+      "residue": "ISJ_substrate",
+      "atom": "H@C16",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 23,
+      "residue": "ISJ_substrate",
+      "atom": "H@C16",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 24,
+      "residue": "HOH_water",
+      "atom": "O",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 25,
+      "residue": "HOH_water",
+      "atom": "H1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 26,
+      "residue": "HOH_water",
+      "atom": "H2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 27,
+      "residue": "Arg7",
+      "atom": "CG",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 28,
+      "residue": "Arg7",
+      "atom": "CD",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 29,
+      "residue": "Arg7",
+      "atom": "NE",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 30,
+      "residue": "Arg7",
+      "atom": "CZ",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 31,
+      "residue": "Arg7",
+      "atom": "NH1",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 32,
+      "residue": "Arg7",
+      "atom": "NH2",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 33,
+      "residue": "Arg7",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 34,
+      "residue": "Arg7",
+      "atom": "H@CG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 35,
+      "residue": "Arg7",
+      "atom": "H@CG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 36,
+      "residue": "Arg7",
+      "atom": "H@CD",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 37,
+      "residue": "Arg7",
+      "atom": "H@CD",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 38,
+      "residue": "Arg7",
+      "atom": "H@NE",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 39,
+      "residue": "Arg7",
+      "atom": "H@NH1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 40,
+      "residue": "Arg7",
+      "atom": "H@NH1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 41,
+      "residue": "Arg7",
+      "atom": "H@NH2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 42,
+      "residue": "Arg7",
+      "atom": "H@NH2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 43,
+      "residue": "Arg63",
+      "atom": "CG",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 44,
+      "residue": "Arg63",
+      "atom": "CD",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 45,
+      "residue": "Arg63",
+      "atom": "NE",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 46,
+      "residue": "Arg63",
+      "atom": "CZ",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 47,
+      "residue": "Arg63",
+      "atom": "NH1",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 48,
+      "residue": "Arg63",
+      "atom": "NH2",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 49,
+      "residue": "Arg63",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 50,
+      "residue": "Arg63",
+      "atom": "H@CG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 51,
+      "residue": "Arg63",
+      "atom": "H@CG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 52,
+      "residue": "Arg63",
+      "atom": "H@CD",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 53,
+      "residue": "Arg63",
+      "atom": "H@CD",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 54,
+      "residue": "Arg63",
+      "atom": "H@NE",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 55,
+      "residue": "Arg63",
+      "atom": "H@NH1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 56,
+      "residue": "Arg63",
+      "atom": "H@NH1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 57,
+      "residue": "Arg63",
+      "atom": "H@NH2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 58,
+      "residue": "Arg63",
+      "atom": "H@NH2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 59,
+      "residue": "Thr74",
+      "atom": "CB",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 60,
+      "residue": "Thr74",
+      "atom": "OG1",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 61,
+      "residue": "Thr74",
+      "atom": "CG2",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 62,
+      "residue": "Thr74",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 63,
+      "residue": "Thr74",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 64,
+      "residue": "Thr74",
+      "atom": "H@OG1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 65,
+      "residue": "Thr74",
+      "atom": "H@CG2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 66,
+      "residue": "Thr74",
+      "atom": "H@CG2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 67,
+      "residue": "Thr74",
+      "atom": "H@CG2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 68,
+      "residue": "Cys75",
+      "atom": "CB",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 69,
+      "residue": "Cys75",
+      "atom": "SG",
+      "element": "S",
+      "frozen": false
+    },
+    {
+      "global_idx": 70,
+      "residue": "Cys75",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 71,
+      "residue": "Cys75",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 72,
+      "residue": "Cys75",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 73,
+      "residue": "Cys75",
+      "atom": "H@SG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 74,
+      "residue": "Glu78",
+      "atom": "CB",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 75,
+      "residue": "Glu78",
+      "atom": "CG",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 76,
+      "residue": "Glu78",
+      "atom": "CD",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 77,
+      "residue": "Glu78",
+      "atom": "OE1",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 78,
+      "residue": "Glu78",
+      "atom": "OE2",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 79,
+      "residue": "Glu78",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 80,
+      "residue": "Glu78",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 81,
+      "residue": "Glu78",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 82,
+      "residue": "Glu78",
+      "atom": "H@CG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 83,
+      "residue": "Glu78",
+      "atom": "H@CG",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 84,
+      "residue": "Tyr108",
+      "atom": "CB",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 85,
+      "residue": "Tyr108",
+      "atom": "CG",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 86,
+      "residue": "Tyr108",
+      "atom": "CD1",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 87,
+      "residue": "Tyr108",
+      "atom": "CD2",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 88,
+      "residue": "Tyr108",
+      "atom": "CE1",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 89,
+      "residue": "Tyr108",
+      "atom": "CE2",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 90,
+      "residue": "Tyr108",
+      "atom": "CZ",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 91,
+      "residue": "Tyr108",
+      "atom": "OH",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 92,
+      "residue": "Tyr108",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 93,
+      "residue": "Tyr108",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 94,
+      "residue": "Tyr108",
+      "atom": "H@CB",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 95,
+      "residue": "Tyr108",
+      "atom": "H@CD1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 96,
+      "residue": "Tyr108",
+      "atom": "H@CD2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 97,
+      "residue": "Tyr108",
+      "atom": "H@CE1",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 98,
+      "residue": "Tyr108",
+      "atom": "H@CE2",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 99,
+      "residue": "Tyr108",
+      "atom": "H@OH",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 100,
+      "residue": "Cit90",
+      "atom": "C4",
+      "element": "C",
+      "frozen": true
+    },
+    {
+      "global_idx": 101,
+      "residue": "Cit90",
+      "atom": "C5",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 102,
+      "residue": "Cit90",
+      "atom": "N6",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 103,
+      "residue": "Cit90",
+      "atom": "C7",
+      "element": "C",
+      "frozen": false
+    },
+    {
+      "global_idx": 104,
+      "residue": "Cit90",
+      "atom": "O7",
+      "element": "O",
+      "frozen": false
+    },
+    {
+      "global_idx": 105,
+      "residue": "Cit90",
+      "atom": "N8",
+      "element": "N",
+      "frozen": false
+    },
+    {
+      "global_idx": 106,
+      "residue": "Cit90",
+      "atom": "Hcap",
+      "element": "H",
+      "frozen": true
+    },
+    {
+      "global_idx": 107,
+      "residue": "Cit90",
+      "atom": "H@C4",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 108,
+      "residue": "Cit90",
+      "atom": "H@C4",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 109,
+      "residue": "Cit90",
+      "atom": "H@C5",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 110,
+      "residue": "Cit90",
+      "atom": "H@C5",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 111,
+      "residue": "Cit90",
+      "atom": "H@N6",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 112,
+      "residue": "Cit90",
+      "atom": "H@N8",
+      "element": "H",
+      "frozen": false
+    },
+    {
+      "global_idx": 113,
+      "residue": "Cit90",
+      "atom": "H@N8",
+      "element": "H",
+      "frozen": false
+    }
+  ]
+}
